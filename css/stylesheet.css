@@ -1,0 +1,128 @@
+/* 
+ #e78f08 border orange mörkare
+ rgb(246, 168, 40) background orange
+ 
+ #D3B9D4 rosa bakgrund
+ 
+ */
+
+body {
+	background: #666;
+	font-family: Trebuchet MS,Tahoma,Verdana;
+}
+.hide {
+	display: none;
+}
+.padding {
+	padding-bottom: 20px;
+}
+#instructions span {
+	width: 10px;
+	height: 12px;
+	display: block;
+	float: right;
+	margin-right: 280px;
+	margin-top: 12px;
+	background: url(images/ui-icons_222222_256x240.png) 125px 189px;
+}
+#container {
+	width: 640px;
+	margin: 20px auto 0 auto;
+	padding-bottom: 90px;
+	background: #b4d8d0;
+	box-shadow: 0 0 10px 1px black;
+}
+#gameboard {
+	width: 445px;
+	margin: auto;
+	border: 1px solid black;
+	padding: 10px;
+	background: #FFEECC;
+}
+#sideboard {
+	background: #DDD;
+	width: 141px;
+	height: 382px;
+	float: right;
+	border: 2px solid #BBB;
+}
+#header {
+	background: url(pics/logga-vit2.png) no-repeat 55px -25px;
+	width: 640px;
+	height: 190px;
+}
+#instructions h2 {
+	margin-bottom: -5px;
+}
+#buttons {
+	float: right;
+	width: 137px;
+	margin-top: 10px;
+}
+#NewButton, #CheatButton {
+	margin-bottom: 15px;
+	display: block;
+	background: white;
+	width: 97%;
+}
+#points {
+	float: right;
+	width: 50px;
+	position: relative;
+	top: 180px;
+	left: -85px;
+}
+#score, #highscore {
+	position: relative;
+	top: -41px;
+	left: 86px;
+	font-size: larger;
+	margin-bottom: -40px;
+}
+#game {
+	background: #FFF;
+	width: 288px;
+	height: 384px;
+	overflow: auto;
+	border: 1px solid black;
+}
+.theme {
+	padding: 10px;
+	background: #fff;
+}
+.square {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	margin: 1px;
+	float: left;
+}
+.visible {
+	background: url(pics/square-yellow.jpg) no-repeat;
+	border: 1px solid black;
+	margin: 0px;
+}
+.block {
+	float: right;
+	position: relative;
+	top: -50px;
+	left: -7px;
+}
+.empty {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	float: left;
+}
+.dropped {
+	background: url(pics/square-dark-pink.jpg) no-repeat;
+/*	background: #e7b9ea; /* Old browsers */
+/*	background: -moz-linear-gradient(top,  #e7b9ea 0%, #844274 100%); /* FF3.6+ */
+/*	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e7b9ea), color-stop(100%,#844274)); /* Chrome,Safari4+ */
+/*	background: -webkit-linear-gradient(top,  #e7b9ea 0%,#844274 100%); /* Chrome10+,Safari5.1+ */
+/*	background: -o-linear-gradient(top,  #e7b9ea 0%,#844274 100%); /* Opera 11.10+ */
+/*	background: -ms-linear-gradient(top,  #e7b9ea 0%,#844274 100%); /* IE10+ */
+/*	background: linear-gradient(to bottom,  #e7b9ea 0%,#844274 100%); /* W3C */
+/*	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7b9ea', endColorstr='#844274',GradientType=0 ); /* IE6-9 */
+
+}
